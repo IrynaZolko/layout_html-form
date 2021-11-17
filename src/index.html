@@ -17,7 +17,7 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
     <form
-      action="http://localhost:3000/api"
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
       onsubmit="onSubmit()"
     >
@@ -123,22 +123,22 @@
         <div class="form-field">
           Do you love cats?
           <label for="yes">
-            Yes
             <input
               type="radio"
               name="cats"
               id="yes"
               value="yes"
             >
+            Yes
           </label>
           <label for="no">
-            No
             <input
               type="radio"
               name="cats"
               id="no"
               value="no"
             >
+            No
           </label>
         </div>
         <div class="form-field">
@@ -159,7 +159,6 @@
             type="time"
             name="sleep"
             id="sleep"
-            placeholder="--:--"
           >
         </div>
         <div class="form-field">
